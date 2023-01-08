@@ -14,9 +14,6 @@
     text-align: right;
     align-items: center;
 }
-/* .text{
-    padding-right: 180px;
-} */
 .title{
     font-weight: 700;
     font-size: 40px;
@@ -37,10 +34,11 @@
     margin-right: 100px;
     width: 150px;
     height: 50px;
-    font-weight: 600;
-    font-size: 20px;
+    font-weight: 500;
+    font-size: 18px;
     border-radius: 5px;
     background-color: rgb(255, 119, 0);
+    border: 0;
 }
 
 /* ABOUT SECTION */
@@ -83,6 +81,41 @@
 .plans-flex{
     padding-bottom: 50px;
 }
+
+/* section-3 */
+
+.image{
+    width: 1000px;
+    height: 300px;
+    margin: 100px auto;
+    background-image: url('images/watch.png');
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+.image-header{
+    font-weight: 700;
+    font-size: 30px;
+    margin-right: 600px;
+    margin-left: 50px;
+    padding-bottom: 20px;
+    color: white;
+}
+.btn-1{
+    margin-left: 50px;
+    width: 150px;
+    height: 50px;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: rgb(255, 119, 0);
+    border: 0;
+    background-color: white;
+    color: rgb(255, 119, 0);
+}
+
 
 
 
