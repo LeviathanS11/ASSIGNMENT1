@@ -39,6 +39,30 @@
     border-radius: 5px;
     background-color: rgb(255, 119, 0);
 }
+section{
+    max-width: 1145px;
+}
+.about{
+    margin: 100px 170px;
+    display: flex;
+    align-items: center;
+}
+.about-title{
+    color: #151414;
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+.about-description{
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+.about img{
+    padding-right: 30px;
+}
+
 
 
 
