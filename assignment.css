@@ -1,6 +1,9 @@
 *{
     margin: 0;
 }
+
+/* HEADER SECTION */
+
 .container{
     width: 100%;
     height: 100vh;
@@ -39,9 +42,9 @@
     border-radius: 5px;
     background-color: rgb(255, 119, 0);
 }
-section{
-    max-width: 1145px;
-}
+
+/* ABOUT SECTION */
+
 .about{
     margin: 100px 170px;
     display: flex;
@@ -61,6 +64,24 @@ section{
 }
 .about img{
     padding-right: 30px;
+}
+
+/* section-2 */
+
+.plans-header{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.plans-flex{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.plans-flex{
+    padding-bottom: 50px;
 }
 
 
